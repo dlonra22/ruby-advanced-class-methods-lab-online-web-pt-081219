@@ -3,12 +3,13 @@ class Song
   @@all = []
   
   def create
-     @@all << self.new
+     song = self.new
+     song
   end
   
   def self.new_by_name(nme)
-      sng = self.new
-      sng.name = nme
+      song = self.new
+      song.name = nme
       sng
   end
   
