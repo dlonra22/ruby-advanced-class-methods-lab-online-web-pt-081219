@@ -15,7 +15,7 @@ class Song
   end
   
   def self.create_by_name(nme)
-       sng = self.new
+       song = self.new
        sng.name = nme
        @@all << sng
        sng
